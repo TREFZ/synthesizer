@@ -1,0 +1,16 @@
+{
+  "name": "health-check-service",
+  "version": "0.1.0",
+  "description": "A cheap, lightweight, fast way to run health checks on an interval.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test --test-reporter=spec \"./test/nodejs/**/*.js\"",
+    "test:watch": "node --test --test-reporter=spec --watch \"./test/nodejs/**/*.js\""
+  },
+  "author": "Business Insider",
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
